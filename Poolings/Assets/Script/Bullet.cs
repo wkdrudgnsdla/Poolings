@@ -10,11 +10,11 @@ public class Bullet : MonoBehaviour
 
     public bool Active = false;
 
-    public Objectpolling pool;
+    public Objectpooling pool;
 
     private void Awake()
     {
-        pool = FindObjectOfType<Objectpolling>();
+        pool = FindObjectOfType<Objectpooling>();
     }
 
     private void Start()

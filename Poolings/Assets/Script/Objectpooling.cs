@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Objectpolling : MonoBehaviour
+public class Objectpooling : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private int initialSize = 20;
